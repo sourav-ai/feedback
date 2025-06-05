@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback | IITK Vibes</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>EC IIT Kanpur</h1>
+            <p class="subtitle">We'd love to hear your thoughts</p>
+            <p>Name, Roll No., Email Address Are Required To Keep A Check Who Gave Feedback,</p>
+            <p>Your Feedback Is Completely Anonymous To All The Managers.</p>
+        </header>
+
+        <form class="feedback-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+
+            <label for="numbers">Roll No.</label>
+            <input type="number" id="rollNo" placeholder="231029" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+
+            <label for="experience">How was your experience?</label>
+            <select id="experience" required>
+                <option value="">Select one</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="okay">Okay</option>
+                <option value="bad">Could be better</option>
+            </select>
+
+            <label for="comments">Additional Comments</label>
+            <textarea id="comments" rows="5" placeholder="Share your feedback..." required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
